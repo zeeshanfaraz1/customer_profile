@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Customers Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="blurBg-false" style="background-color:#EBEBEB">
+
+
+
+    <!-- Start Formoid form-->
+    <link rel="stylesheet" href="https://formoid.net/forms/53/498266/formoid-default-skyblue.css" type="text/css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://formoid.net/lib/iframe.js"></script>
+    <link rel="stylesheet" href="https://formoid.net/lib/form.css" type="text/css" />
+    <form class="formoid-default-skyblue"
+        style="background-color:#1A2223;font-size:14px;font-family:'Open Sans','Helvetica Neue','Helvetica',Arial,Verdana,sans-serif;color:#666666;max-width:480px;min-width:150px"
+        method="post" name="google-sheet">
+        <div class="title">
+            <h2>Customers Profile</h2>
+        </div>
+        <div class="element-name"><label class="title">Name</label><span class="nameFirst"><input type="text" size="8"
+                    name="name[first]" /><label class="subtitle">First</label></span><span class="nameLast"><input
+                    type="text" size="14" name="name[last]" /><label class="subtitle">Last</label></span></div>
+        <div class="element-email"><label class="title">Email</label><input class="large" type="email" name="email"
+                value="" /></div>
+        <div class="element-radio"><label class="title" name="gender">Select Your Gender</label>
+            <div class="column column1"><label><input type="radio" name="gender"
+                        value="Male" /><span>Male</span></label><label><input type="radio" name="gender"
+                        value="Female" /><span>Female</span></label></div><span class="clearfix"></span>
+        </div>
+        <div class="element-select"><label class="title">Status</label>
+            <div class="large"><span><select name="status">
+
+                        <option value="Employee">Employee</option>
+                        <option value="Dependent">Dependent</option>
+                    </select><i></i></span></div>
+        </div>
+        <div class="element-select"><label class="title">Age</label>
+            <div class="large"><span name="age"><select>
+
+                        <option value="18 - 30">18 - 30</option>
+                        <option value="31 - 40">31 - 40</option>
+                        <option value="41 - 50">41 - 50</option>
+                        <option value="51 - 60 ">51 - 60 </option>
+                        <option value="61 - 70">61 - 70</option>
+                    </select><i></i></span></div>
+        </div>
+        <div class="element-separator">
+            <hr>
+            <h3 class="section-break-title"></h3>
+        </div>
+        <div class="element-checkbox"><label class="title">What are Your Favourite Outdoor Sports?</label>
+            <div class="column column3"><label><input type="checkbox" name="Outdoor1"
+                        value="Soccer" /><span>Soccer</span></label><label><input type="checkbox" name="Outdoor2"
+                        value="Golf" /><span>Golf</span></label><label><input type="checkbox" name="Outdoor3"
+                        value="Swimming " /><span>Swimming </span></label></div><span class="clearfix"></span>
+            <div class="column column3"><label><input type="checkbox" name="Outdoor4" value="Horse Riding" /><span>Horse
+                        Riding</span></label><label><input type="checkbox" name="Outdoor5"
+                        value="Tennis" /><span>Tennis</span></label><label><input type="checkbox" name="Outdoor6"
+                        value="Padel" /><span>Padel</span></label></div><span class="clearfix"></span>
+            <div class="column column3"><label><input type="checkbox" name="Outdoor7"
+                        value="Hiking" /><span>Hiking</span></label><label><input type="checkbox" name="Outdoor8"
+                        value="Volley Ball" /><span>Volley Ball</span></label><label><input type="checkbox"
+                        name="Outdoor9" value="Basket Ball" /><span>Basket Ball</span></label></div><span
+                class="clearfix"></span>
+        </div>
+        <div class="element-input"><label class="title" name="other_outdoor">Please specify if you like other outdoor
+                sports</label><input class="large" type="text" name="other_outdoor" /></div>
+        <div class="element-checkbox"><label class="title">What is your favourite Indoor sports?</label>
+            <div class="column column2"><label><input type="checkbox" name="Indoor1"
+                        value="Fitness Lessons" /><span>Fitness Lessons</span></label><label><input type="checkbox"
+                        name="Indoor2" value="Badminton" /><span>Badminton</span></label><label><input type="checkbox"
+                        name="Indoor3" value="Billiards" /><span>Billiards</span></label></div><span
+                class="clearfix"></span>
+            <div class="column column2"><label><input type="checkbox" name="Indoor4" value="Tabel Tennis" /><span>Tabel
+                        Tennis</span></label><label><input type="checkbox" name="Indoor5"
+                        value="Squash" /><span>Squash</span></label></div><span class="clearfix"></span>
+        </div>
+        <div class="element-input"><label class="title" name="other_Indoor">Please specify if you like other Indoor
+                sports</label><input class="large" type="text" name="other_Indoor" /></div>
+        <div class="element-separator">
+            <hr>
+            <h3 class="section-break-title"></h3>
+        </div>
+        <div class="element-checkbox"><label class="title">What are your Favourite Events?</label>
+            <div class="column column3"><label><input type="checkbox" name="Event1"
+                        value="Kids" /><span>Kids</span></label><label><input type="checkbox" name="Event2"
+                        value="Arts & Crafts" /><span>Arts & Crafts</span></label><label><input type="checkbox"
+                        name="Event3" value="Social" /><span>Social</span></label></div><span class="clearfix"></span>
+            <div class="column column3"><label><input type="checkbox" name="Event4"
+                        value="Sports" /><span>Sports</span></label><label><input type="checkbox" name="Event5"
+                        value="Learning" /><span>Learning</span></label><label><input type="checkbox" name="Event6"
+                        value="Outside Camp " /><span>Outside Camp </span></label></div><span class="clearfix"></span>
+            <div class="column column3"><label><input type="checkbox" name="Event7"
+                        value="Music" /><span>Music</span></label><label><input type="checkbox" name="Event8"
+                        value="Dining" /><span>Dining</span></label><label><input type="checkbox" name="Event9"
+                        value="Safety Training" /><span>Safety Training</span></label></div><span
+                class="clearfix"></span>
+        </div>
+        <div class="element-separator">
+            <hr>
+            <h3 class="section-break-title"></h3>
+        </div>
+        <div class="element-textarea"><label class="title">Do you have any suggestions or ideas that would help UCSD
+                increase customer happiness</label><textarea class="medium" name="comments" cols="20"
+                rows="5"></textarea></div>
+        <div class="submit"><input type="submit" value="Submit" name="submit/></div><div id=" formoid-form-footer">
+            <ul id="formoid-links">
+
+                <script>
+                    const scriptURL = 'https://script.google.com/macros/s/AKfycbxL9oZRUJGa72Lb52ZtrS9yRT5gJBz16_umhiXb7cvclf9DBlcHN_v54O-eZ1FETSL3/exec'
+                    const form = document.forms['google-sheet']
+
+                    form.addEventListener('submit', e => {
+                        e.preventDefault()
+                        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                            .catch(error => console.error('Error!', error.message))
+                    })
+                </script>
+
+
+</body>
+
+</html>
